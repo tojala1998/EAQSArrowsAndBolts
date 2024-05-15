@@ -24,7 +24,8 @@ namespace EquipmentAndQuickSlots
             ItemDrop.ItemData.ItemType.Chest,
             ItemDrop.ItemData.ItemType.Legs,
             ItemDrop.ItemData.ItemType.Shoulder,
-            ItemDrop.ItemData.ItemType.Utility
+            ItemDrop.ItemData.ItemType.Utility,
+            ItemDrop.ItemData.ItemType.Ammo
         };
 
         public static ConfigEntry<bool> EquipmentSlotsEnabled;

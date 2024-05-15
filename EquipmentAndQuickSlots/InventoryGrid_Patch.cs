@@ -64,14 +64,14 @@ namespace EquipmentAndQuickSlots
             {
                 var horizontalSpacing = __instance.m_elementSpace + 10;
                 var verticalSpacing = __instance.m_elementSpace + 10;
-                string[] equipNames = { "Head", "Chest", "Legs", "Shoulders", "Utility" };
+                string[] equipNames = { "Head", "Chest", "Legs", "Shoulders", "Utility", "Ammo" };
                 Vector2[] equipPositions = {
                     new Vector2(), // Head
                     new Vector2(0, -verticalSpacing), // Chest
                     new Vector2(0, -2 * verticalSpacing), // Legs
-                    new Vector2(horizontalSpacing, -0.5f * verticalSpacing), // Shoulders
-                    new Vector2(horizontalSpacing, -1.5f * verticalSpacing), // Utility 1
-                    //new Vector2(horizontalSpacing, -2 * verticalSpacing), // Utility 2
+                    new Vector2(horizontalSpacing, 0), // Shoulders
+                    new Vector2(horizontalSpacing, -verticalSpacing), // Utility
+                    new Vector2(horizontalSpacing, -2 * verticalSpacing) // Ammo
                 };
 
                 Vector2[] augaEquipPositions = {
@@ -80,6 +80,8 @@ namespace EquipmentAndQuickSlots
                     new Vector2(0, -1.8f * verticalSpacing), // Legs
                     new Vector2(0.45f * horizontalSpacing, -0.9f * verticalSpacing), // Shoulders
                     new Vector2(1.3f * horizontalSpacing, 0), // Utility 1
+                    new Vector2(-1.3f * horizontalSpacing, 0) // Ammo
+
                 };
 
                 for (var i = 0; i < EquipmentAndQuickSlots.EquipSlotCount; ++i)

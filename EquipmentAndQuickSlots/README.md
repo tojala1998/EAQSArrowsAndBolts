@@ -1,7 +1,7 @@
-# New for Mistlands
-The new, v2.1 of Equipment and Quick Slots does not need to be installed on servers.
+# What's new with the fork:
+This is a fork of Randy Knapp's EquipmentAndQuickslots mod adding an Ammo slot for arrows and bolts to go.
 
-Please report bugs on our discord: https://discord.gg/ZNhYeavv3C
+----Original README to follow----
 
 # Equipment and Quick Slots v2.1.3
 ##### by RandyKnapp
